@@ -1,0 +1,55 @@
+
+==================== SETTINGS ====================
+Title of the simualation              : disk-finer
+Name of the minf file                 : ../test/mesh-disk-finest/minf.space
+Name of the mxyz file                 : ../test/mesh-disk-finest/mxyz.space
+Name of the mien file                 : ../test/mesh-disk-finest/mien
+Name of the mrng file                 : mrng
+Name of the initial distribution file : data
+Initial value of the Temperature      : 0.0000e+00
+Diffusion coefficient                 : 1.0000e+00
+Source term                           : 3.1830e+04
+Number of maximum time steps          : 320001
+Time step size                        : 1.0000e-07
+                                         BCType	BCValue1	BCValue2
+BC Type and values of face group 1      : 1	3.0000e+02	0.0000e+00
+
+====================== MESH ======================
+> Number of mesh elements : 84656
+> Number of nodes : 42645
+> File read complete: minf
+> Mesh data structure is created.
+> File read complete: ../test/mesh-disk-finest/mxyz.space
+> File read complete: ../test/mesh-disk-finest/mien
+
+=================== SOLUTION =====================
+For debugging, we consider element 3921 
+K: 
+5.8570e-01 -2.7473e-01 -3.1097e-01 
+-2.7473e-01 5.5570e-01 -2.8098e-01 
+-3.1097e-01 -2.8098e-01 5.9195e-01 
+
+M: 
+1.3674e-07
+1.3674e-07
+1.3674e-07
+
+F: 
+0.0000e+00
+0.0000e+00
+0.0000e+00
+
+Number of Dirichlet Nodes = 632
+Number of Non-Dirichlet Nodes = 42013
+
+Global Error = 7.5670e-07
+RMS Error = 1.0000e-07
+Iterations run = 170603
+
+================ POST-PROCESSING =================
+Tmin 3.0000e+02
+Tmax 3.0424e+02
+
+Discretization Error = 7.1751e-02
+disk-finer.vtu
+Elapsed time is 652.3400
